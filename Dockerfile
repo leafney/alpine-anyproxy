@@ -8,4 +8,4 @@ RUN yarn global add anyproxy@$ANYPROXY_VERSION &&\
 
 EXPOSE 8001 8002
 
-ENTRYPOINT anyproxy
+CMD [ "anyproxy" ]
